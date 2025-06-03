@@ -1,1 +1,0 @@
-print(outra_variavel)
