@@ -7,5 +7,5 @@ contador = 10
 
  ##
 
-contador += 1
+contador %= 2
 print(contador)

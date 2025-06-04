@@ -14,4 +14,4 @@ while condicao:
     if nome == 'sair':
        break
 
-
+ 
