@@ -44,3 +44,7 @@ e valores caractere ou strings.
 
 -join = que e pra juntar uma  coisa na outra 
  
+
+
+
+ 

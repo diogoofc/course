@@ -596,7 +596,7 @@ negado.'''
 # if prestação <= minimo:
 #     print('Empréstimo pode ser CONCEDISO!')
 # else:
-#     print('Empréstimo NEGADO!')
+#      print('Empréstimo NEGADO!')
 
 
 
@@ -678,6 +678,20 @@ RECUPERAÇÃO
 - Média 7.0 ou superior:
 APROVADO'''
 
+# nota1 = float(input('Digite sua nota: '))
+# nota2 = float(input('Digite sua segunda nota: '))
+# media = (nota1 + nota2) / 2
+
+
+# if media >= 0 and media <= 5:
+#     print('Você estar REPROVADOR!')
+
+# elif media >= 5 and  media <= 6.9:
+#     print('Você esta em recuperação!')
+
+# elif media >= 7.0:
+#     print('Você esta aprovador!') 
+
 
 
 
@@ -692,6 +706,25 @@ APROVADO'''
  - Até 20 anos:SÊNIOR
  - Acima: MESTRE
 '''
+ano_nacimento = float(input('Digite sua data de nacimento: '))
+idade = 2025 - ano_nacimento
+
+
+if idade  >= 9 and idade <= 13:
+    print('MIRIN')
+elif idade >= 14 and idade <= 18:
+    print('INFANTIL')    
+elif idade == 19:
+    print('JUNIOR')
+elif idade == 20 :
+    print('SÊNIOR')
+else:
+    print('MESTRE')
+
+
+
+
+
 
 # Exercicio 42
 '''refaça o DESAFIO 35 dos triângulos,
@@ -716,6 +749,22 @@ abaixo:
 - 30 até 40: obesidade
 - Acima de 40:
 obesidade mórbida'''
+
+# peso = float(input('Digite seu peso: '))
+# altura = float(input('Digite sua altura: '))
+# imc = peso / (altura ** 2)
+ 
+# print(f'Seu imc é {imc}')
+
+# if imc <= 18.5:
+#     print('Você está abaixo do peso!')
+# elif imc >= 18.5 and imc <= 25 :
+#     print('Você está no peso ideal!')    
+# elif 25 <= imc <= 30:
+#     print('Você está na obesidade!')     
+# else:
+#     print('obesidade mórbida')    
+
 
 # Exercicio 44 
 '''Elabore um programa que calcule o valor a ser
