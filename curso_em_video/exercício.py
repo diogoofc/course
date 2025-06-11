@@ -639,6 +639,15 @@ mostrando na tela uma mensagem:
 - Não existe valor maior, os dois são iguais
 '''
 
+# valor1 = int(input('Digite um número: '))
+# valor2 = int(input('Digite segundo número: '))
+
+# if valor1 > valor2:
+#     print('O primeiro valor é maior')
+# elif valor2 > valor1:
+#     print('O segundo é maior')    
+# else:
+#     print('Não existe valor maior, os dois são iguais')
 
 
 
@@ -657,12 +666,24 @@ jovem e informe, de acordo com sua idade:
 
 Seu programa também deverá mostra  o compo que falta ou que passou do prazo.
 '''
+# from datetime import date
+
+# atual = date.today().year
+# ano = int(input('Digite sua data de nacimento: '))
+# idade = 2025 - ano
 
 
 
+# print(f'Quem naceu em {ano} tem {idade} anos em {atual}')
 
-
-
+# if idade == 18:
+#     print('Você tem que se alista UMGENTE!')
+# elif idade < 18:
+#     saldo = 18 - idade
+#     print(f'Ainda falta {saldo} anos para se alistar')
+# elif idade > 18 :
+#     saldo = idade - 18
+#     print(f'Você deveria te se alistado há  {saldo} anos')
 
 
 
@@ -678,10 +699,11 @@ RECUPERAÇÃO
 - Média 7.0 ou superior:
 APROVADO'''
 
-# nota1 = float(input('Digite sua nota: '))
-# nota2 = float(input('Digite sua segunda nota: '))
+# nota1 = float(input('Primeira nota: '))
+# nota2 = float(input('Segunda nota: '))
 # media = (nota1 + nota2) / 2
 
+# print(f'Tirando {nota1} e {nota2} a média do aluno e {media}')
 
 # if media >= 0 and media <= 5:
 #     print('Você estar REPROVADOR!')
@@ -706,20 +728,26 @@ APROVADO'''
  - Até 20 anos:SÊNIOR
  - Acima: MESTRE
 '''
-ano_nacimento = float(input('Digite sua data de nacimento: '))
-idade = 2025 - ano_nacimento
 
 
-if idade  >= 9 and idade <= 13:
-    print('MIRIN')
-elif idade >= 14 and idade <= 18:
-    print('INFANTIL')    
-elif idade == 19:
-    print('JUNIOR')
-elif idade == 20 :
-    print('SÊNIOR')
-else:
-    print('MESTRE')
+# from datetime import date
+# atual = date.today().year
+# ano_nacimento = int(input('Ano de nacimento: '))
+# idade = atual - ano_nacimento
+
+
+# print(f'O atleta tem {idade} anos.')
+
+# if idade  <= 9 :
+#     print('Cassificação MIRIN')
+# elif idade <= 14 :
+#     print(' Cassificação INFANTIL')    
+# elif idade <= 19:
+#     print(' Cassificação JUNIOR')
+# elif idade <= 25 :
+#     print(' Cassificação SÊNIOR')
+# else:
+#     print(' Cassificação MESTRE')
 
 
 
@@ -734,6 +762,20 @@ tipo de triângulo será formado:
 - Equilátero: todos os lados iguais
 - Isósceles: dois lados iguais
 - Escaleno: tosos os lados diferentes'''
+
+# r1 = float(input('Primeiro segmento: '))
+# r2 = float(input('segundo segmento: '))
+# r3 = float(input('terceiro segmento: '))
+# if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
+#     print('Os segmentos acima PODEM FORMAR  um triângulo ', end='')
+#     if r1 == r2 and r2 == r3:
+#         print('EQUILÁTERO')
+#     elif r1 != r2 != r3 != r1!=:
+#             print('Escaleno')
+#     else:
+#          print('Isósceles')
+# else:
+#     print('Os segmentos acima NÃO PODEM FORMAR triângulo! ')
 
 
 
@@ -750,11 +792,11 @@ abaixo:
 - Acima de 40:
 obesidade mórbida'''
 
-# peso = float(input('Digite seu peso: '))
-# altura = float(input('Digite sua altura: '))
+# peso = float(input('Qual é  o  seu peso? (KG) '))
+# altura = float(input('Qual é a  sua altura? (M) '))
 # imc = peso / (altura ** 2)
  
-# print(f'Seu imc é {imc}')
+# print(f'Seu imc é {imc:.2f}')
 
 # if imc <= 18.5:
 #     print('Você está abaixo do peso!')
@@ -776,6 +818,34 @@ considerando o seu preço normal e condição de pagamento:
 - em até 2x noi cartão:
 preço normal
 -3x ou mais no cartão:20% de juros'''
+# print('{:=^40}'. format(' LOJA DIOGO '))
+# preço = float(input('Preço das COMPRA: R$')) 
+# print('''
+# [ 1 ] á vista dinheiro/ceque
+# [ 2 ] á vista no  cartão
+# [ 3 ] em até 2x noi cartão
+# [ 4 ] 3x ou mais no cartão''')
+# opção = int(input('Qual é a opção? '))
+# if opção == 1:
+#     total = preço -(preço * 10 / 100)
+# elif opção == 2 :
+#     total = preço -(preço * 5 / 100)    
+# elif opção == 3:
+#     total = preço
+#     parcela = total /2
+#     print(f'Sua compra será parcelada em 2x de R${parcela} SEM JUROS')
+# elif opção == 4 :
+#     total  = preço + (preço * 20 / 100)
+#     tolparc = int(input('Quantas parcelas? '))
+#     parcela = total / tolparc
+#     print(f'Sua compra será parcelada em {tolparc}x de R${parcela:.2f} COM JUROS') 
+# print(f'Sua compra de {preço:.2f} vai custar R${total:.2f}')
+
+
+
+
+
+
 
 # Exercicio 45
 ''' Crie um programa que faça o 
