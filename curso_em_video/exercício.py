@@ -844,9 +844,6 @@ preço normal
 
 
 
-
-
-
 # Exercicio 45
 ''' Crie um programa que faça o 
 computador jogar JOKENPÔ com você'''

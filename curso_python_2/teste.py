@@ -110,47 +110,61 @@
 
 
 """ Calculadora com while """
-while True:
-    numero_1 = input('Digite um número: ')
-    numero_2 = input('Digite outro número: ')
-    operador = input('Digite o operador (+-/*): ')
+# while True:
+#     numero_1 = input('Digite um número: ')
+#     numero_2 = input('Digite outro número: ')
+#     operador = input('Digite o operador (+-/*): ')
 
-    numeros_validos = None
+#     numeros_validos = None
 
-    try:
-        num_1_float = float(numero_1)
-        num_2_float = float(numero_2)
-        numeros_validos = True
-    except:
-        numeros_validos = None
+#     try:
+#         num_1_float = float(numero_1)
+#         num_2_float = float(numero_2)
+#         numeros_validos = True
+#     except:
+#         numeros_validos = None
 
-    if numeros_validos is None:
-        print('Um ou ambos os números digitados são inválidos.')
-        continue
+#     if numeros_validos is None:
+#         print('Um ou ambos os números digitados são inválidos.')
+#         continue
 
-    operadores_permitidos = '+-/*'
+#     operadores_permitidos = '+-/*'
 
-    if operador not in operadores_permitidos:
-        print('Operador inválido.')
-        continue
+#     if operador not in operadores_permitidos:
+#         print('Operador inválido.')
+#         continue
 
-    if len(operador) > 1:
-        print('Digite apenas um operador.')
-        continue
+#     if len(operador) > 1:
+#         print('Digite apenas um operador.')
+#         continue
 
-    print('Realizando sua conta. confira o resultador abaixo')
+#     print('Realizando sua conta. confira o resultador abaixo')
     
-    if operador == '+':
-        print(f'{num_1_float} + {num_2_float}',num_1_float + num_2_float)
-    elif operador == '-':
-        print(f'{num_1_float} - {num_2_float}',num_1_float - num_2_float)
-    elif operador == '/':
-        print(f'{num_1_float} / {num_2_float}',num_1_float / num_2_float)   
-    elif operador == '*':
-        print(f'{num_1_float} * {num_2_float}',num_1_float * num_2_float)  
+#     if operador == '+':
+#         print(f'{num_1_float} + {num_2_float}',num_1_float + num_2_float)
+#     elif operador == '-':
+#         print(f'{num_1_float} - {num_2_float}',num_1_float - num_2_float)
+#     elif operador == '/':
+#         print(f'{num_1_float} / {num_2_float}',num_1_float / num_2_float)   
+#     elif operador == '*':
+#         print(f'{num_1_float} * {num_2_float}',num_1_float * num_2_float)  
 
 
-    sair = input('Quer sair? [s]im: ').lower().startswith('s')
+#     sair = input('Quer sair? [s]im: ').lower().startswith('s')
 
-    if sair is True:
-        break
+#     if sair is True:
+#         break
+
+
+
+
+nota = (input('Digite um valor de nota: '))
+
+# if nota >= 0 and nota <= 10:
+#     print(nota)
+# else:
+#     print('nota invalida')
+
+while nota < 0 or nota > 10:
+    nota = float(input('Digite um valor VÁLIDO  de nota: '))
+    print(nota)
