@@ -10,10 +10,10 @@ Uso: nome_variavel = expressão"""
 # int_um = bool('1')
 # print(int_um, type (int_um))
 # print(nome_completo ,soma_onze_mais_onze)
-
+ 
 
 nome = 'Diogo'
 idade = 22
 maior_de_idade = idade >= 18
 print('nome:', nome, 'idade:', idade)
-print('É maior?', maior_de_idade)
+print('É maior de idade?', maior_de_idade)
