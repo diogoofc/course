@@ -1,2 +1,0 @@
-
-		int idade = scanner.nextInt();

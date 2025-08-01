@@ -17,7 +17,7 @@ public class teste {
 		System.out.print("Digite sua altura:");
 		double altura = scanner.nextDouble();
 		
-		System.out.println("Seu nome é" + nome + " e tem "+ idade + "anos, e tem " + altura + " de altura\n");
+		System.out.println("Seu nome é " + nome + " e tem "+ idade + " anos, e tem " + altura + " de altura\n");
 		
 		scanner.close();
 	 
