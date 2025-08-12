@@ -1,4 +1,5 @@
-package exercicio_da_uri_online1001;
+package Exercicio_da_uri_online1003;
+
 
 import java.util.Scanner;
 
@@ -6,16 +7,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		
 		Scanner sc = new Scanner(System.in);
 		
-		int A, B, X;
+		int A, B, soma;
 		
 		A = sc.nextInt();
 		B = sc.nextInt();
-		X = A + B;
-		System.out.println("X = " + X);
-		
-		
+ 		soma = A + B;
+ 		
+		System.out.println("SOMA = "+ soma);
 		
 		sc.close();
 
