@@ -19,7 +19,7 @@ public class EstrututaIfElse {
 //            System.out.println("Vamos fica em casa");
 //        }
 
-        boolean temDinheiro = true;
+        boolean temDinheiro = false;
         boolean temcartao = false;
 
         if(temcartao && temcartao) {
@@ -31,6 +31,17 @@ public class EstrututaIfElse {
         else {
             System.out.println("Não pede nada");
         }
+
+        String mensagem = (temDinheiro) ? "Pede um ifood" : "Come o que tem em casa";
+        System.out.println(mensagem);
+
+        if (temDinheiro) {
+            System.out.println("pede um ifood");
+        }
+        else {
+                System.out.println("Come o que tem em casa");
+
+            }
 
 
 
