@@ -1,1 +1,0 @@
-Loop infinito -> Quando um código não tem fim
