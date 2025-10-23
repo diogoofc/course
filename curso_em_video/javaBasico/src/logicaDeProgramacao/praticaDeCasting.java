@@ -1,3 +1,5 @@
+package logicaDeProgramacao;
+
 public class praticaDeCasting {
     public  static void main(String[] args) {
 

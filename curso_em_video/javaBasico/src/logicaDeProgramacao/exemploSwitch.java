@@ -1,3 +1,5 @@
+package logicaDeProgramacao;
+
 public class exemploSwitch {
     public static void main (String[] args) {
         char nota  = 'A';

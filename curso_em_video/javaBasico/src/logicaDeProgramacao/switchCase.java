@@ -1,3 +1,4 @@
+package logicaDeProgramacao;
 
 import java.util.Scanner;
 

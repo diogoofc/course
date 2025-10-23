@@ -1,3 +1,5 @@
+package logicaDeProgramacao;
+
 import java.util.Scanner;
 
 public class exercicio06 {

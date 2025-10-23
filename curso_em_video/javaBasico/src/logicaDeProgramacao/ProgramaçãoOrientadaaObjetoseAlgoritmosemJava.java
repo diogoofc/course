@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package logicaDeProgramacao;
 
 public class ProgramaçãoOrientadaaObjetoseAlgoritmosemJava {
     public static void main (String[] args){

@@ -1,3 +1,5 @@
+package logicaDeProgramacao;
+
 public class processamentoDeDadosEmJavaCasting {
     public static void main(String[] args) {
 

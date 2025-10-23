@@ -1,3 +1,5 @@
+package logicaDeProgramacao;
+
 public class funçõesMatemáticasEmJava {
     public static void main(String[] args) {
 
