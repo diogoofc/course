@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExercicioDaURI/ExercicioDaURI.iml" filepath="$PROJECT_DIR$/ExercicioDaURI/ExercicioDaURI.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaBasico.iml" filepath="$PROJECT_DIR$/javaBasico.iml" />
     </modules>
   </component>
