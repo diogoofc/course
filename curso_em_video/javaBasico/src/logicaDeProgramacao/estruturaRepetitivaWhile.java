@@ -26,20 +26,22 @@ public class estruturaRepetitivaWhile {
 //            System.out.println(x + "-" + y);
 //        }
 
-        int x = 4;
-        int y = 0;
-        int i = 0;
+//        int x = 4;
+//        int y = 0;
+//        int i = 0;
+//
+//        while (i < x){
+//            i = i + 1;
+//            y = y + 1;
+//            System.out.println(i);
+//            System.out.println(y);
+//        }
 
-        while (i < x){
-            i = i + 1;
-            y = y + 1;
-            System.out.println(i);
-            System.out.println(y);
+        int canbalhota = 0;
+        while (canbalhota < 4) {
+            System.out.println("Canbalhota");
+            canbalhota++;
         }
-
-
-
-
         sc.close();
     }
 }
