@@ -8,6 +8,8 @@ public class Aula06EstruturasDeRepeticao01 {
             System.out.println(contatdor);
             contatdor++;
         }
+
+
         contatdor = 0;
         do{
             System.out.println("Dentro do do-while");
