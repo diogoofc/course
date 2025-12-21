@@ -17,7 +17,7 @@ public class exercicio04 {
         }
         else {
             System.out.printf("NOTA FINAL = %.1f%n", notaFinal);
-            System.out.println("REPROVADO");
+            System.out.println("REPROVADOkk");
         }
 
         sc.close();
