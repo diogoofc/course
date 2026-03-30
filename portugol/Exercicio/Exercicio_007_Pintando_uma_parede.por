@@ -4,8 +4,8 @@ programa
 	funcao inicio()
 	{
 		escreva("{ EXERCICIO 007 - Pintando uma parede }\n")
-		escreva("Informação importante: um litro de tinta pinta 2m²")
-		escreva("--------------------------------------------------\n")
+		escreva("\nInformação importante: um litro de tinta pinta 2m²\n")
+		escreva("------------------------------------------------\n")
 		real largura
 		escreva("Largura da parede: ")
 		leia(largura)
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 86; 
+ * @POSICAO-CURSOR = 153; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,17 +1,29 @@
 programa
+/*
+EX004: programa para ler um número inteiro qualquer e mostrar asd sequintes operações:
+		-soma     		-Diferente
+		-produto			-Quociente Inteiro
+		-Quociente real	-Resto da Divisão (Módulo)
+
+*/
+
+
+
 {
-	inclua biblioteca Tipos --> t
+	inclua biblioteca Tipos --> t
 	funcao inicio()
 	{
 		escreva("{ EXERCICIO 004 - Operações Aritméticas }\n")
+		// Declaração de Variáveis
 		inteiro numero1
+		// Entrada de Dados
 		escreva("Digite um número: ")
 		leia(numero1)
 		inteiro numero2
 		escreva("Digite outro número: ")
 		leia(numero2)
 		escreva("\n")
-
+		// Resultados Finais
 		escreva("---------- RESULTADO ---------- \n")
 		inteiro soma = numero1 + numero2
 		inteiro diferenca = numero1 - numero2
@@ -36,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 117; 
+ * @POSICAO-CURSOR = 542; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
