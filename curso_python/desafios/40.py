@@ -1,5 +1,5 @@
-nota_do_aluno1 = float(input('Qual a sua primeira nota: '))
-nota_do_aluno2 = float(input('Qual a sua segunda nota: '))
+nota_do_aluno1 = float(input('Primeira nota: '))
+nota_do_aluno2 = float(input('Segunda nota: '))
 media_do_aluno = (nota_do_aluno1 + nota_do_aluno2) / 2
 
 if media_do_aluno < 5:

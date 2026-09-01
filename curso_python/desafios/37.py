@@ -1,14 +1,18 @@
 numero = int(input('Qual número: '))
-opcao = int(input('1-binaria \n 2-octal \n 3-Hexadecimal \n'))
+print('''Escolha uma das bases para conversão
+[ 1 ] converter para binario
+[ 2 ] converter para octal
+[ 3 ] converter para hexadecimal''')
+opcao = int(input('Sua opção: '))
 
 if opcao == 1:
-    binario = bin(numero)
+    binario = bin(numero) [2:]
     print(f'conversão do número {numero}  para binário', binario)
 elif opcao == 2:
-    octal = oct(numero)
+    octal = oct(numero) [2:]
     print(f'conversão do número {numero} para Octal', octal)
 elif opcao == 3:
-    hexadecimal = hex(numero)
+    hexadecimal = hex(numero)[2:]
     print(f'conversão do número {numero} Hexadecimal', hexadecimal)
 else:
     print('Opção invalida! tenta novamente')
